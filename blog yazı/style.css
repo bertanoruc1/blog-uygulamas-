@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#postForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#postsContainer .post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.post h3 {
+    margin: 0 0 10px;
+}
+
+.post p {
+    margin: 0 0 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.editButton, .deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff5733;
+    margin-left: 10px;
+}
+
+.editButton {
+    right: 80px;
+}
+
+.commentSection {
+    margin-top: 20px;
+}
+
+.commentSection h4 {
+    margin: 10px 0;
+}
+
+.commentSection textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}

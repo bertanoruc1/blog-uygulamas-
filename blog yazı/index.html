@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Uygulaması</h1>
+        <button id="newPostButton">Yeni Yazı Oluştur</button>
+    </header>
+
+    <main>
+        <div id="postForm" class="hidden">
+            <h2>Yeni Yazı</h2>
+            <input type="text" id="postTitle" placeholder="Başlık">
+            <textarea id="postContent" placeholder="İçerik"></textarea>
+            <button id="savePostButton">Kaydet</button>
+            <button id="cancelPostButton">İptal</button>
+        </div>
+
+        <div id="postsContainer">
+            <!-- Blog yazıları burada görünecek -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
